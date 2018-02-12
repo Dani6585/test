@@ -1,0 +1,38 @@
+body{
+    background-color: darkolivegreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-size: 400%;
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6, a {
+    color: white;
+    text-align: center;
+  }
+
+nav{
+    text-align: center;
+    text-decoration-color: black;
+    font-size: 2rem;
+}
+
+p{
+    text-align: center;
+}
+
+.background{
+    width: 100vw;
+    height: 50vh;
+    color: darkgreen;
+
+    background-image: linear-gradient(rgba(0,0,0,.30), transparent),
+
+url(https://timedotcom.files.wordpress.com/2017/09/gettyimages-8441889801.jpg);
+background-repeat: no repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
