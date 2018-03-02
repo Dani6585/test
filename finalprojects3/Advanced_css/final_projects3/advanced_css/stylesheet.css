@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway|Source+Serif+Pro');
+
+body{
+    background-color: darkolivegreen;
+    margin: 0;
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+    body {
+      background: orange;
+    }
+  }
+  
+  @media print {
+    body {
+      background: white;
+    }
+  }
+
+h1{
+    font-size: 400%;
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6, a {
+    color: white;
+    text-align: center;
+  }
+
+a:hover{
+    color: gray;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration-color: black;
+    font-size: 2rem;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.flex{
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 65px;    
+}
+
+.background{
+    width: 100vw;
+    height: 50vh;
+    color: darkolivegreen;
+
+    background-image: linear-gradient(rgba(0,0,0,.30), transparent),
+
+url(https://timedotcom.files.wordpress.com/2017/09/gettyimages-8441889801.jpg);
+background-repeat: no repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
